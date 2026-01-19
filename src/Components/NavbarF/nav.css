@@ -1,0 +1,44 @@
+/* .custom-checkbox {
+    appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    border: 2px solid #D7530A;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #D7530A;
+    border: 1px solid #D7530A;
+  } */
+
+.yes{
+  /* right: -500px; */
+  animation-name: yes;
+    animation-duration: 2s;
+}
+@keyframes yes{
+  0%{
+    left: -500px;     
+  }
+  25%{
+    left: 0px;
+      
+  }
+  50%{
+    left: 0px;
+      
+  }
+  75%{
+    right: 0px;
+      
+  }
+  100%{
+      left: 0px;
+      
+  }
+}
+
+
+ 
